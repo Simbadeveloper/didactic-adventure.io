@@ -30,4 +30,4 @@ https://simbadeveloper.github.io/didactic-adventure.io/UI/Adminpage.html<br>
 
 # User Route:
 To be able to access the user link you can use the below link<br>
-https://simbadeveloper.github.io/didactic-adventure.io/UI/index.html<br>
+https://simbadeveloper.github.io/didactic-adventure.io/UI/userpage.html<br>
