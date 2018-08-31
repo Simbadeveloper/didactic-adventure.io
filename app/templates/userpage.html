@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!--Head section-->
 <head>
 	<title>User Page</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-
+	<link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <script language="javascript" type="text/javascript"></script>
 </head>
-<header class="header">
-     <nav>
-     <a href="index.html">HOME</a>|
-     <a href="order.html">ORDER</a>|
-     <a href="login.html">LOGOUT</a>|
-    
+<!--Navigation section-->
+	<header class="header">
+	 <nav>
+     <a href="/">HOME</a>|
+     <a href="/makeorder">ORDER</a>|
+     <a href="/login">LOGOUT</a>|
 </nav>
-</header>
+<!--Body section-->
 <body>
  <h1>HISTORY OF ORDERS</h1>
      <div class="container">
@@ -33,7 +34,7 @@
                 </tr>
          </table>
     </div>
-     <!--Footer Section-->
-    <footer> </footer>
+    <!--Footer Section-->
+    <footer></footer>
 </body>
 </html>

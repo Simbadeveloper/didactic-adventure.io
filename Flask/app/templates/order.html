@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>User Order Page</title>
-  <link rel="stylesheet" type="text/css" href="main>
+	<title>Order  list Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+  <script language="javascript" type="text/javascript"></script>
+</head>
 <header class="header">
    <nav>
-     <a href="index.html">HOME</a>|
-     <a href="order.html">ORDER</a> |
-     <a href="userpage.html">USER ACCOUNT</a> |
-     <a href="login.html">LOGOUT</a>|
+     <a href="/user">HOME</a>|
+     <a href="/makeorder">ORDER</a> |
+     <a href="/user">USER ACCOUNT</a> |
+     <a href="/login">LOGOUT</a>|
 </nav>
 </header>
-<body>
+<!--Body Section-->
 <body>
 <div class="container">
  <h1>MAKE AN ORDER</h1>
@@ -36,10 +39,9 @@
         <option value="db">Onsite</option></select>
         <br><br>
       <input type="submit" name="submit" value="submit">
-
- 	
  </form>
 </div>
- 	
+<!--Footer Section-->
+ <footer></footer>
 </body>
 </html>

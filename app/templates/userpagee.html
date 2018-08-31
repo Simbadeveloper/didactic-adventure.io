@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>User Page</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-
+	<title>List of orders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{url_for('static',filename='css/admin.css')}}">
+    <script language="javascript" type="text/javascript"></script>
 </head>
+<!--Header Section-->
 <header class="header">
      <nav>
-     <a href="index.html">HOME</a>|
-     <a href="order.html">ORDER</a>|
-     <a href="login.html">LOGOUT</a>|
-    
+     <a href="/admin">HOME</a>|
+     <a href="/orders">ORDERS</a>|
+     <a href="/login">LOGOUT</a>|
 </nav>
 </header>
+<!--Body Section-->
 <body>
- <h1>HISTORY OF ORDERS</h1>
+ <h1>LIST OF ORDERS</h1>
      <div class="container">
         <table border="2">
                <tr>
@@ -33,7 +35,7 @@
                 </tr>
          </table>
     </div>
-     <!--Footer Section-->
-    <footer> </footer>
+<!--Footer Section-->
+ <footer></footer>
 </body>
 </html>

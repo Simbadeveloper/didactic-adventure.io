@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Fast-Food-Fast</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <script language="javascript" type="text/javascript"></script>
   </head>
-   <header class="header">
+  <body>
+    <header class="header">
     <nav>
-     <a href="index.html">HOME</a>|
-     <a href="register.html">SIGNUP</a>|
-     <a href="Aboutus.html">ABOUT US</a>|
-     <a href="login.html">LOGIN</a>|
+     <a href="/">HOME</a>|
+     <a href="/aboutus">ABOUT US</a>|
+     <a href="/login">LOGIN</a>|
     </nav>
 </header>
 <script language="javascript" type="text/javascript">
@@ -18,7 +19,6 @@
         document.write("<h1>WELCOME TO FAST-FOOD-FAST</h1>")
        //--> 
     </script>
-  <body>
     <section>
     <div class="container">
       <h1>FOOD-ITEM-LIST</h1>
